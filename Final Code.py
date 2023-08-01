@@ -8,7 +8,7 @@ import os
 
 
 
-#Capturing Photo Uising Webcam
+#Capturing Photo Using Webcam
 cam = cv2.VideoCapture(0)
 
 cv2.namedWindow("test")
@@ -36,7 +36,7 @@ while True:
 
 
 
-#Reading Img and Enhansing
+#Reading Img and Enhancing
 image=cv2.imread("test_img.jpg")   #read in the image
 image=cv2.resize(image,(1300,800)) #resizing because opencv does not work well with bigger images
 orig=image.copy()
